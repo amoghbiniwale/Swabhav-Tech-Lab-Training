@@ -1,7 +1,6 @@
 package com.aurionpro.model;
 
 public class Rectangle {
-	private static Color green;
 	private double height;
 	private double width;
 	private Color color;
@@ -23,6 +22,16 @@ public class Rectangle {
 		this.width = width;
 	}
 	
+	
+	
+	public Color getColor() {
+		return color;
+	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
 	public Rectangle (double height, double width,Color color) {
 		this.height=height;
 		this.width=width;
@@ -32,7 +41,7 @@ public class Rectangle {
 		this(height,width,Color.green);
 	}
 	public Rectangle() {
-		this(5,10,green);
+		this(5,10,Color.green);
 	}
 
 	public double CalculateRectangleArea () {

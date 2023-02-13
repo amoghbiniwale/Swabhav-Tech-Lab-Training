@@ -37,7 +37,4 @@ public class Manager extends Employee {
 	public String toString() {
 		return "Manager [hra=" + hra + ", da=" + da + ", ta=" + ta + "]";
 	}
-	
-	
-	
 }
