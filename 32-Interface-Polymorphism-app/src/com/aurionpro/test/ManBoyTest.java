@@ -15,11 +15,8 @@ public class ManBoyTest {
 		atTheMovie(boy);
 		
 		atTheParty(man);
-		atTheParty(boy);
+		//atTheParty(boy);
 	}
-
-	
-
 	private static void atTheParty(IEmotionable obj) {
 		obj.cry();
 		obj.laugh();
