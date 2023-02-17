@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
-
-
-
 public class ArrayListTest {
 
 	public static void main(String[] args) {
@@ -33,9 +29,8 @@ public class ArrayListTest {
 		list.remove(0);
 		System.out.println(list);
 		list.remove(new Integer(20));
-		System.out.println(list);
-		
-		list.contains(30);
+		System.out.println(list);		
+		System.out.println(list.contains(30));
 	}
 
 }
