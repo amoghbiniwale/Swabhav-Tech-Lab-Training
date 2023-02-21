@@ -5,6 +5,7 @@ public class LineItem {
 	private String name;
 	private int quantity;
 	private double unitPrice;
+	
 	public LineItem(int d, String name, int quantity, double unitPrice) {
 		super();
 		this.id = d;
@@ -12,6 +13,7 @@ public class LineItem {
 		this.quantity = quantity;
 		this.unitPrice = unitPrice;
 	}
+	
 	public int getD() {
 		return id;
 	}
