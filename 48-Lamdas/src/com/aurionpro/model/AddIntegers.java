@@ -7,4 +7,6 @@ public class AddIntegers implements IAddable {
 		return a+b;
 	}
 
+	
+
 }

@@ -2,6 +2,7 @@ package com.aurionpro.test;
 
 import com.aurionpro.model.AddIntegers;
 import com.aurionpro.model.IAddable;
+import com.aurionpro.model.IGreetable;
 
 public class AddTest {
 
@@ -24,6 +25,9 @@ public class AddTest {
 		System.out.println(addObj3.add(50,40));
 	}
 	
+	IGreetable name =(name)->{
+		System.out.println("good afternoon"+name);
+	};
 	
 	
 }
