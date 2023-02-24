@@ -15,7 +15,7 @@ public class AccoountTest {
 				new Account(103,"sam",40000)
 				);
 		
-			List<Account> collect = accountList.stream().filter(n->n.getBalance()>=10000).collect(Collectors.toList());
+			List<Account> collect = accountList.stream().filter(n->n.getBalance()>=30000).collect(Collectors.toList());
 			System.out.println(collect);
 			
 	}

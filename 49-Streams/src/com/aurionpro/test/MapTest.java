@@ -11,6 +11,7 @@ public class MapTest {
 	public static void main(String[] args) {
 		List<Integer> numberList = Arrays.asList(10,12,25,20,33,30,47);
 		System.out.println(numberList);
+		
 		List<Integer> collect = numberList.stream().map(n->n*n).collect(Collectors.toList());
 		System.out.println("squre of numberList"+collect);
 		
